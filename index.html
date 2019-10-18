@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="de" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+  	
+	<title>Auswahl einer Zeiterfassungssoftware | Pottenstein</title>
+</head>
+<style type="text/css">
+	
+
+	.cd-header h1 {
+
+    font-size: 2.3rem;
+    font-weight: 800;
+    background-color: #424242;
+}
+
+.cd-gallery li {
+
+    text-align: center;
+    font-size: 24px;
+    background-color: white;
+}
+
+.logo {
+	padding-top: 35px;
+}
+
+
+</style>
+<body>
+	<header class="cd-header">
+		<h1><img src="img/time-select-logo2.png" height="120" alt="Image 1" class="logo"></h1>
+
+	</header>
+
+	<main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">Alle</a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a class="selected" href="#0" data-type="all">Alle</a></li>
+					<li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">Handwerk</a></li>
+					<li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">Dienstleistung</a></li>
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+		<section class="cd-gallery">
+			<ul>
+				<li class="mix color-1 check1 radio2 option3 art1"><img src="img/img-1.jpg" alt="Image 1"><i class="fas fa-external-link-alt"></i>clockodo</li>
+				<li class="mix color-2 check1 check2 radio2 option2 art2"><img src="img/img-2.jpg" alt="Image 2">timr</li>
+				<li class="mix color-1 check3 radio3 option1 art4"><img src="img/img-3.jpg" alt="Image 3">EASYPEP</li>
+				<li class="mix color-1 check3 radio2 option4"><img src="img/img-4.jpg" alt="Image 4">ATOSS</li>
+				<li class="mix color-1 check1 radio3 option2"><img src="img/img-5.jpg" alt="Image 5">clockin</li>
+				<li class="mix color-2 check2 radio3 option3"><img src="img/img-6.jpg" alt="Image 6">123erfasst</li>
+				<li class="mix color-2 check2 radio2 option1"><img src="img/img-7.jpg" alt="Image 7">E2N Gastro</li>
+				<li class="mix color-1 check1 radio3 option4"><img src="img/img-8.jpg" alt="Image 8">TimeMoto</li>
+				<li class="mix color-2 check1 radio2 option3"><img src="img/img-9.jpg" alt="Image 9">Software 9</li>
+				<li class="mix color-1 check3 radio2 option4"><img src="img/img-10.jpg" alt="Image 10">Software 10</li>
+				<li class="mix color-1 check3 radio3 option2"><img src="img/img-11.jpg" alt="Image 11">Software 11</li>
+				<li class="mix color-2 check1 radio3 option1"><img src="img/img-12.jpg" alt="Image 12">Software 12</li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+			</ul>
+			<div class="cd-fail-message">Keine Ergebnisse</div>
+		</section> <!-- cd-gallery -->
+
+		<div class="cd-filter">
+			<form>
+			
+
+				<div class="cd-filter-block">
+					<h4>Funktionen</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+			    			<label class="checkbox-label" for="checkbox1">Auswertungen</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">Urlaubsplanung</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">Fehlzeitenverwaltung</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check4" type="checkbox" id="checkbox4">
+							<label class="checkbox-label" for="checkbox4">Mobile Zeiterfassung</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check5" type="checkbox" id="checkbox5">
+							<label class="checkbox-label" for="checkbox5">Projektzeiterfassung</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check6" type="checkbox" id="checkbox6">
+							<label class="checkbox-label" for="checkbox6">Personaleinsatzplanung</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check7" type="checkbox" id="checkbox7">
+							<label class="checkbox-label" for="checkbox7">Zutrittskontrolle</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check8" type="checkbox" id="checkbox8">
+							<label class="checkbox-label" for="checkbox8">Feiertagsverwaltung</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check9" type="checkbox" id="checkbox9">
+							<label class="checkbox-label" for="checkbox9">Schichtplanung</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check10" type="checkbox" id="checkbox10">
+							<label class="checkbox-label" for="checkbox10">Reisekostenabrechnung</label>
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+
+				<div class="cd-filter-block">
+					<h4>Art der Erfassung</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".art1" type="checkbox" id="art1">
+			    			<label class="checkbox-label" for="art1">Computer</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".art2" type="checkbox" id="art2">
+							<label class="checkbox-label" for="art2">App</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".art3" type="checkbox" id="art3">
+							<label class="checkbox-label" for="art3">Terminal</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".art4" type="checkbox" id="art4">
+							<label class="checkbox-label" for="art4">Webanwendung</label>
+						</li>
+		
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Schnittstellen</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".schnitt1" type="checkbox" id="schnitt1">
+			    			<label class="checkbox-label" for="schnitt1">SAGE</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".schnitt2" type="checkbox" id="schnitt2">
+							<label class="checkbox-label" for="schnitt2">DATEV</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".schnitt3" type="checkbox" id="schnitt3">
+							<label class="checkbox-label" for="schnitt3">SAP</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".schnitt4" type="checkbox" id="schnitt4">
+							<label class="checkbox-label" for="schnitt4">Excel</label>
+						</li>
+		
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+				<div class="cd-filter-block">
+					<h4>Exportmöglichkeiten</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".schnitt1" type="checkbox" id="schnitt1">
+			    			<label class="checkbox-label" for="schnitt1">EXCEL</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".schnitt2" type="checkbox" id="schnitt2">
+							<label class="checkbox-label" for="schnitt2">CSV</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".schnitt3" type="checkbox" id="schnitt3">
+							<label class="checkbox-label" for="schnitt3">HTML</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".schnitt4" type="checkbox" id="schnitt4">
+							<label class="checkbox-label" for="schnitt4">XML</label>
+						</li>
+		
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+						<div class="cd-filter-block">
+					<h4>Vertragslaufzeit</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".schnitt1" type="checkbox" id="schnitt1">
+			    			<label class="checkbox-label" for="schnitt1">Keine Vertragslaufzeit</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".schnitt2" type="checkbox" id="schnitt2">
+							<label class="checkbox-label" for="schnitt2">Monatliche Kündigung</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".schnitt3" type="checkbox" id="schnitt3">
+							<label class="checkbox-label" for="schnitt3">....</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".schnitt4" type="checkbox" id="schnitt4">
+							<label class="checkbox-label" for="schnitt4">....</label>
+						</li>
+		
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+										<div class="cd-filter-block">
+					<h4>Preismodell</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".schnitt1" type="checkbox" id="schnitt1">
+			    			<label class="checkbox-label" for="schnitt1">Preis pro Mitarbeiter</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".schnitt2" type="checkbox" id="schnitt2">
+							<label class="checkbox-label" for="schnitt2">Preis pro Nutzer</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".schnitt3" type="checkbox" id="schnitt3">
+							<label class="checkbox-label" for="schnitt3">Einmalige Lizenz</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".schnitt4" type="checkbox" id="schnitt4">
+							<label class="checkbox-label" for="schnitt4">....</label>
+						</li>
+		
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Auswahl</h4>
+					
+					<div class="cd-filter-content">
+						<div class="cd-select cd-filters">
+							<select class="filter" name="selectThis" id="selectThis">
+								<option value="">Bitte auswählen</option>
+								<option value=".option1">Option 1</option>
+								<option value=".option2">Option 2</option>
+								<option value=".option3">Option 3</option>
+								<option value=".option4">Option 4</option>
+							</select>
+						</div> <!-- cd-select -->
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Software Bereitstellung</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter="" type="radio" name="radioButton" id="radio1" checked>
+							<label class="radio-label" for="radio1">Alle</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".radio2" type="radio" name="radioButton" id="radio2">
+							<label class="radio-label" for="radio2">Cloud</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".radio3" type="radio" name="radioButton" id="radio3">
+							<label class="radio-label" for="radio3">On Premise</label>
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+			</form>
+
+			<a href="#0" class="cd-close">X</a>
+		</div> <!-- cd-filter -->
+
+		<a href="#0" class="cd-filter-trigger">Filter</a>
+	</main> <!-- cd-main-content -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+     <script>
+            var containerEl = document.querySelector('.cd-filter');
+
+            var mixer = mixitup(containerEl, {
+                controls: {
+                    toggleLogic: 'and'
+                }
+            });
+        </script>
+</body>
+</html>
